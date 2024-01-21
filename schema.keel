@@ -52,5 +52,4 @@ model Project {
         actions: [get, list, update, delete],
         expression: project.owner == ctx.identity
     )
-
 }
